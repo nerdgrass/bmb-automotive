@@ -7216,8 +7216,3 @@ a.th {
 .f-dropdown.large {
   max-width: 800px;
 }
-
-/* line 1, ../sass/_home.scss */
-.heroImage {
-  background: lightgray;
-}
