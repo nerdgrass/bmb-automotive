@@ -1,3 +1,6 @@
 .heroImage {
 	background: lightgray;
 }
+.heroImage >.row {
+	padding-top: emCalc(400px);
+}

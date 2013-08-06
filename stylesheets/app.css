@@ -7217,7 +7217,18 @@ a.th {
   max-width: 800px;
 }
 
+/* line 1, ../sass/_global.scss */
+.footerWrapper {
+  background: lightgray;
+  padding: 1.5625em 0;
+}
+
 /* line 1, ../sass/_home.scss */
 .heroImage {
   background: lightgray;
+}
+
+/* line 4, ../sass/_home.scss */
+.heroImage > .row {
+  padding-top: 25em;
 }
