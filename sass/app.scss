@@ -1,8 +1,11 @@
+//Custom Variables
+@import "variables.scss";
+
 // Global Foundation Settings
-@import "settings";
+@import "ZFsettings";
 
 // Comment out this import if you don't want to use normalize
-@import "normalize";
+@import "vendor/normalize";
 
 // Comment out this import if you are customizing you imports below
 @import "foundation";
@@ -54,3 +57,9 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+//
+// Custom Imports
+//
+//Global Styles, styles that can be applied anywhere
+@import "global.scss";
+@import "home";
