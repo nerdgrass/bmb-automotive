@@ -1,6 +1,10 @@
 .heroImage {
-	background: lightgray;
+	background: $gray url('../img/engineSplash.jpg');
+	background-size: cover;
 }
 .heroImage >.row {
 	padding-top: emCalc(400px);
+}
+.heroImage h1 {
+	background: $red;
 }

@@ -1,4 +1,37 @@
+
+//Color Classes
+.red {color:$red;}
+
+//Logo
+#logo {
+	background: url('../img/BMBlogo.png') no-repeat;
+	background-size: 200px auto;
+	width:200px;
+	height:124px;
+	overflow:visible !important;
+	display: block;
+}
+
+// Footer
 .footerWrapper {
-	background: lightgray;
+	background:$dBlue;
 	padding:emCalc(25px) 0;
+}
+h4.footer {
+	color: $light;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: 0;
+	line-height: 1em;
+}
+.footer .red {
+	font-weight: 600;
+}
+.footerMenu {
+	color:$lBlue;
+}
+
+// Top Bar overrides
+.contain-to-grid .top-bar {
+	margin-bottom: 0 !important;
 }

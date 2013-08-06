@@ -1,0 +1,13 @@
+//Color Variables
+$red:#a4302f;
+$blue:#0a6eb7;
+$light:#f2ebed;
+$dark:#221e1f;
+$gray:#84797c;
+
+$lRed:lighten($red, 15%);
+$dRed:darken($red, 15%);
+
+$lBlue:lighten($blue, 15%);
+$dBlue:darken($blue, 20%);
+
