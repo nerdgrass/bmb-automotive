@@ -2,6 +2,34 @@
 //Color Classes
 .red {color:$red;}
 
+//Header
+.contain-to-grid {
+	background:rgba(34, 30, 31, 0.9);
+}
+.headerCTA {
+	text-align: right;
+	color:$red;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: emCalc(24px);
+	line-height: auto;
+	margin-bottom: 0;
+}
+
+.headerNumber {
+	text-align: right;
+	color: $light;
+	font-size: emCalc(20px);
+	font-weight: 400;
+	margin-top: 0;
+}
+nav.nav ul.inline-list li a {
+	text-transform: uppercase;
+}
+nav .inline-list > li {
+	float: right;
+}
+
 //Logo
 #logo {
 	background: url('../img/BMBlogo.png') no-repeat;
@@ -29,9 +57,4 @@ h4.footer {
 }
 .footerMenu {
 	color:$lBlue;
-}
-
-// Top Bar overrides
-.contain-to-grid .top-bar {
-	margin-bottom: 0 !important;
 }

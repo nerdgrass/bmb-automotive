@@ -697,20 +697,17 @@ $header-font-color:$dark;
 // $inline-list-top-margin: 0;
 // $inline-list-opposite-margin: 0;
 // $inline-list-bottom-margin: emCalc(17);
-// $inline-list-default-float-margin: emCalc(-22);
+$inline-list-default-float-margin: emCalc(-40);
 
 // $inline-list-padding: 0;
 
 // We use this to control the overflow of the inline list.
-
 // $inline-list-overflow: hidden;
 
 // We use this to control the list items
-
 // $inline-list-display: block;
 
 // We use this to control any elments within list items
-
 // $inline-list-children-display: block;
 
 //
@@ -1235,11 +1232,11 @@ $header-font-color:$dark;
 
 // Background color for the top bar
 
-$topbar-bg:$dark;
+// $topbar-bg:$dark;
 
 // Height and margin
 
-$topbar-height: 100px;
+// $topbar-height: 100px;
 // $topbar-margin-bottom: emCalc(30);
 
 // Control Input height for top bar
@@ -1268,8 +1265,8 @@ $topbar-height: 100px;
 // $topbar-link-weight: bold;
 // $topbar-link-font-size: emCalc(13);
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
-$topbar-link-bg-hover:$dark;
-$topbar-link-bg-active:$dark;
+// $topbar-link-bg-hover:$dark;
+// $topbar-link-bg-active:$dark;
 
 // $topbar-dropdown-label-color: #555;
 // $topbar-dropdown-label-text-transform: uppercase;
