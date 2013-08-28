@@ -23,21 +23,39 @@
 	font-weight: 400;
 	margin-top: 0;
 }
-nav.nav ul.inline-list li a {
+nav ul.inline-list {
+	margin-top: emCalc(20px);
+	margin-bottom: 0;
+}
+nav li a {
+	padding-top:emCalc(10px);
 	text-transform: uppercase;
 }
 nav .inline-list > li {
 	float: right;
 }
+// Hero Image, Inner Pages
+.heroImage.innerPage {
+	background: $gray url('../img/engineSplash.jpg');
+	background-size: cover;
+	border-bottom: emCalc(5px) solid $red;
+	margin-bottom: emCalc(40px);
+}
+.heroImage.innerPage >.row {
+	padding-top: emCalc(90px);
+}
+h1.heroImageCaption-ip{
+	background:transparent;
+
+}
 
 //Logo
 #logo {
 	background: url('../img/BMBlogo.png') no-repeat;
-	background-size: 200px auto;
-	width:200px;
-	height:124px;
-	overflow:visible !important;
-	display: block;
+	background-size: emCalc(150px) auto;
+	width:emCalc(150px);
+	height:emCalc(60px);
+	margin-top: emCalc(10px);
 }
 
 // Footer
@@ -57,4 +75,8 @@ h4.footer {
 }
 .footerMenu {
 	color:$lBlue;
+}
+h4.footerPhone {
+	color:$lBlue;
+	text-align: center;
 }

@@ -161,13 +161,14 @@ $secondary-color: $dark;
 // Control header font styles
 
 $header-font-family: "Titillium Web", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
+$header-font-weight: 700;
 // $header-font-style: normal;
-$header-font-color:$dark;
+$header-font-color:$blue;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
 // $header-text-rendering: optimizeLegibility;
+$header-letter-spacing:2em;
 
 // Control header font sizes
 

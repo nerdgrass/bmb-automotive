@@ -1,10 +1,20 @@
 .heroImage {
 	background: $gray url('../img/engineSplash.jpg');
 	background-size: cover;
+	border-bottom: emCalc(5px) solid $red;
+	margin-bottom: emCalc(40px);
 }
 .heroImage >.row {
 	padding-top: emCalc(400px);
 }
-.heroImage h1 {
-	background: $red;
+.heroImageCaption {
+	color: $lBlue;
+	background: $dark;
+	// padding: emCalc(10px);
+}
+h1.heroImageCaption {
+	margin-bottom: 0px;
+}
+h3.heroImageCaption {
+	font-weight: 300;
 }

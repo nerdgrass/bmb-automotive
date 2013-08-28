@@ -1969,7 +1969,7 @@ p.lead {
 /* line 115, ../../../../../../.rvm/gems/ruby-1.9.3-p448/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #736669;
+  color: #63b8f7;
   font-weight: 300;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -2038,9 +2038,9 @@ p aside {
 /* line 181, ../../../../../../.rvm/gems/ruby-1.9.3-p448/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Titillium Web", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
-  color: #221e1f;
+  color: #0a6eb7;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -2049,7 +2049,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 191, ../../../../../../.rvm/gems/ruby-1.9.3-p448/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #736669;
+  color: #63b8f7;
   line-height: 0;
 }
 
@@ -2213,7 +2213,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125em;
-  color: #584e50;
+  color: #33a3f4;
 }
 /* line 319, ../../../../../../.rvm/gems/ruby-1.9.3-p448/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -2222,14 +2222,14 @@ blockquote cite:before {
 /* line 324, ../../../../../../.rvm/gems/ruby-1.9.3-p448/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #584e50;
+  color: #33a3f4;
 }
 
 /* line 330, ../../../../../../.rvm/gems/ruby-1.9.3-p448/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #736669;
+  color: #63b8f7;
 }
 
 /* Microformats */
@@ -7248,32 +7248,56 @@ a.th {
 }
 
 /* line 26, ../sass/_global.scss */
-nav.nav ul.inline-list li a {
+nav ul.inline-list {
+  margin-top: 1.25em;
+  margin-bottom: 0;
+}
+
+/* line 30, ../sass/_global.scss */
+nav li a {
+  padding-top: 0.625em;
   text-transform: uppercase;
 }
 
-/* line 29, ../sass/_global.scss */
+/* line 34, ../sass/_global.scss */
 nav .inline-list > li {
   float: right;
 }
 
-/* line 34, ../sass/_global.scss */
-#logo {
-  background: url("../img/BMBlogo.png") no-repeat;
-  background-size: 200px auto;
-  width: 200px;
-  height: 124px;
-  overflow: visible !important;
-  display: block;
+/* line 38, ../sass/_global.scss */
+.heroImage.innerPage {
+  background: #84797c url("../img/engineSplash.jpg");
+  background-size: cover;
+  border-bottom: 0.3125em solid #a4302f;
+  margin-bottom: 2.5em;
 }
 
 /* line 44, ../sass/_global.scss */
+.heroImage.innerPage > .row {
+  padding-top: 5.625em;
+}
+
+/* line 47, ../sass/_global.scss */
+h1.heroImageCaption-ip {
+  background: transparent;
+}
+
+/* line 53, ../sass/_global.scss */
+#logo {
+  background: url("../img/BMBlogo.png") no-repeat;
+  background-size: 9.375em auto;
+  width: 9.375em;
+  height: 3.75em;
+  margin-top: 0.625em;
+}
+
+/* line 62, ../sass/_global.scss */
 .footerWrapper {
   background: #053456;
   padding: 1.5625em 0;
 }
 
-/* line 48, ../sass/_global.scss */
+/* line 66, ../sass/_global.scss */
 h4.footer {
   color: #f2ebed;
   text-transform: uppercase;
@@ -7282,28 +7306,47 @@ h4.footer {
   line-height: 1em;
 }
 
-/* line 55, ../sass/_global.scss */
+/* line 73, ../sass/_global.scss */
 .footer .red {
   font-weight: 600;
 }
 
-/* line 58, ../sass/_global.scss */
+/* line 76, ../sass/_global.scss */
 .footerMenu {
   color: #1b98f3;
+}
+
+/* line 79, ../sass/_global.scss */
+h4.footerPhone {
+  color: #1b98f3;
+  text-align: center;
 }
 
 /* line 1, ../sass/_home.scss */
 .heroImage {
   background: #84797c url("../img/engineSplash.jpg");
   background-size: cover;
+  border-bottom: 0.3125em solid #a4302f;
+  margin-bottom: 2.5em;
 }
 
-/* line 5, ../sass/_home.scss */
+/* line 7, ../sass/_home.scss */
 .heroImage > .row {
   padding-top: 25em;
 }
 
-/* line 8, ../sass/_home.scss */
-.heroImage h1 {
-  background: #a4302f;
+/* line 10, ../sass/_home.scss */
+.heroImageCaption {
+  color: #1b98f3;
+  background: #221e1f;
+}
+
+/* line 15, ../sass/_home.scss */
+h1.heroImageCaption {
+  margin-bottom: 0px;
+}
+
+/* line 18, ../sass/_home.scss */
+h3.heroImageCaption {
+  font-weight: 300;
 }
