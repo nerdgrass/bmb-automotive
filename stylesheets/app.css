@@ -7223,22 +7223,11 @@ a.th {
 }
 
 /* line 6, ../sass/_global.scss */
-.r-lb {
-  display: block;
-}
-
-@media only screen and (min-width: 540px) {
-  /* line 10, ../sass/_global.scss */
-  .r-lb {
-    display: none;
-  }
-}
-/* line 13, ../sass/_global.scss */
 .contain-to-grid {
   background: rgba(34, 30, 31, 0.9);
 }
 
-/* line 16, ../sass/_global.scss */
+/* line 9, ../sass/_global.scss */
 .headerCTA {
   text-align: right;
   color: #a4302f;
@@ -7249,7 +7238,7 @@ a.th {
   margin-bottom: 0;
 }
 
-/* line 26, ../sass/_global.scss */
+/* line 19, ../sass/_global.scss */
 .headerNumber {
   text-align: right;
   color: #f2ebed;
@@ -7258,24 +7247,24 @@ a.th {
   margin-top: 0;
 }
 
-/* line 33, ../sass/_global.scss */
+/* line 26, ../sass/_global.scss */
 nav ul.inline-list {
   margin-top: 1.25em;
   margin-bottom: 0;
 }
 
-/* line 37, ../sass/_global.scss */
+/* line 30, ../sass/_global.scss */
 nav li a {
   padding-top: 0.625em;
   text-transform: uppercase;
 }
 
-/* line 41, ../sass/_global.scss */
+/* line 34, ../sass/_global.scss */
 nav .inline-list > li {
   float: right;
 }
 
-/* line 45, ../sass/_global.scss */
+/* line 38, ../sass/_global.scss */
 .heroImage.innerPage {
   background: #84797c url("../img/engineSplash.jpg");
   background-size: cover;
@@ -7283,17 +7272,19 @@ nav .inline-list > li {
   margin-bottom: 2.5em;
 }
 
-/* line 51, ../sass/_global.scss */
+/* line 44, ../sass/_global.scss */
 .heroImage.innerPage > .row {
-  padding-top: 5.625em;
+  padding-top: 9.375em;
 }
 
-/* line 54, ../sass/_global.scss */
+/* line 47, ../sass/_global.scss */
 h1.heroImageCaption-ip {
   background: transparent;
+  color: #f2ebed;
+  text-shadow: 2px 1px 0px #053456;
 }
 
-/* line 60, ../sass/_global.scss */
+/* line 55, ../sass/_global.scss */
 #logo {
   background: url("../img/BMBlogo.png") no-repeat;
   background-size: 9.375em auto;
@@ -7302,13 +7293,13 @@ h1.heroImageCaption-ip {
   margin-top: 0.625em;
 }
 
-/* line 69, ../sass/_global.scss */
+/* line 64, ../sass/_global.scss */
 .footerWrapper {
   background: #053456;
   padding: 1.5625em 0;
 }
 
-/* line 73, ../sass/_global.scss */
+/* line 68, ../sass/_global.scss */
 h4.footer {
   color: #f2ebed;
   text-transform: uppercase;
@@ -7317,22 +7308,33 @@ h4.footer {
   line-height: 1em;
 }
 
-/* line 80, ../sass/_global.scss */
+/* line 75, ../sass/_global.scss */
 .footer .red {
   font-weight: 600;
 }
 
-/* line 83, ../sass/_global.scss */
+/* line 78, ../sass/_global.scss */
 .footerMenu {
   color: #1b98f3;
 }
 
-/* line 86, ../sass/_global.scss */
+/* line 81, ../sass/_global.scss */
 h4.footerPhone {
   color: #1b98f3;
   text-align: center;
 }
 
+/* line 87, ../sass/_global.scss */
+.r-lb {
+  display: block;
+}
+
+@media only screen and (min-width: 540px) {
+  /* line 91, ../sass/_global.scss */
+  .r-lb {
+    display: none;
+  }
+}
 /* line 1, ../sass/_home.scss */
 .heroImage {
   background: #84797c url("../img/engineSplash.jpg");

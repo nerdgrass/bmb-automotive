@@ -2,13 +2,6 @@
 //Color Classes
 .red {color:$red;}
 
-// Utilities 
-.r-lb {//responsive line break
-	display: block;
-}
-@media only screen and (min-width: 540px) {
-	.r-lb {display:none;}
-}
 //Header
 .contain-to-grid {
 	background:rgba(34, 30, 31, 0.9);
@@ -49,10 +42,12 @@ nav .inline-list > li {
 	margin-bottom: emCalc(40px);
 }
 .heroImage.innerPage >.row {
-	padding-top: emCalc(90px);
+	padding-top: emCalc(150px);
 }
 h1.heroImageCaption-ip{
 	background:transparent;
+	color:$light;
+	text-shadow: 2px 1px 0px $dBlue;
 
 }
 
@@ -86,4 +81,12 @@ h4.footer {
 h4.footerPhone {
 	color:$lBlue;
 	text-align: center;
+}
+
+// Utilities 
+.r-lb {//responsive line break
+	display: block;
+}
+@media only screen and (min-width: 540px) {
+	.r-lb {display:none;}
 }
