@@ -2,6 +2,13 @@
 //Color Classes
 .red {color:$red;}
 
+// Utilities 
+.r-lb {//responsive line break
+	display: block;
+}
+@media only screen and (min-width: 540px) {
+	.r-lb {display:none;}
+}
 //Header
 .contain-to-grid {
 	background:rgba(34, 30, 31, 0.9);

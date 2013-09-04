@@ -5,16 +5,38 @@
 	margin-bottom: emCalc(40px);
 }
 .heroImage >.row {
-	padding-top: emCalc(400px);
+	padding-top: emCalc(150px);
+}
+.heroImageHeader {
+	font-size: emCalc(36px);
+	margin-bottom: emCalc(10px);
+}
+@media only screen and (max-width: 768px) {
+	.heroImageHeader {
+		font-size: emCalc(28px);
+	}
+}
+.heroImageHeader span {
+	color:$red;
+}
+.heroImageHeader h1 {
+	line-height: emCalc(18px);
+	margin: 0;
+	color:$light;
 }
 .heroImageCaption {
 	color: $lBlue;
 	background: $dark;
-	// padding: emCalc(10px);
+
 }
 h1.heroImageCaption {
 	margin-bottom: 0px;
 }
-h3.heroImageCaption {
+h1.heroImageCaption small {
 	font-weight: 300;
+}
+@media only screen and (min-width: 768px) {
+	h1.heroImageCaption small {
+		padding-left: emCalc(5px);
+	}
 }
