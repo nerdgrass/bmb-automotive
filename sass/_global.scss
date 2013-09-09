@@ -2,6 +2,12 @@
 //Color Classes
 .red {color:$red;}
 
+img {
+	padding: 5px;
+	background-color: lighten($light, 5%);
+	border: 1px solid #ddd;
+}
+
 //Header
 .contain-to-grid {
 	background:rgba(34, 30, 31, 0.9);
